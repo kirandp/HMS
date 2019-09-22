@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  room_id: 
+  patient_id: 
+  date_of_disc: 2019-09-21 21:48:37
+  total_amt: 
+
+two:
+  room_id: 
+  patient_id: 
+  date_of_disc: 2019-09-21 21:48:37
+  total_amt: 

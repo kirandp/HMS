@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Room:</strong>
+  <%= @bill.room_id %>
+</p>
+
+<p>
+  <strong>Patient:</strong>
+  <%= @bill.patient_id %>
+</p>
+
+<p>
+  <strong>Date of disc:</strong>
+  <%= @bill.date_of_disc %>
+</p>
+
+<p>
+  <strong>Total amt:</strong>
+  <%= @bill.total_amt %>
+</p>
+
+<%= link_to 'Edit', edit_bill_path(@bill) %> |
+<%= link_to 'Back', bills_path %>
